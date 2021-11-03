@@ -1,0 +1,197 @@
+/*Reset CSS*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+
+    font-family: 'Roboto', sans-serif;
+    color: #444;
+
+}
+
+header{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 2rem;
+}
+
+.logo{
+    width: 21rem;
+    height: 4rem;
+}
+
+.logo img{
+    width: 211px;
+
+ }
+
+ .sign-in{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+ }
+
+ .sign-i button{
+   
+     border: none;
+ }
+
+ input[type='text'],
+ input[type='email'],
+ input[type='password']{
+     /* aqui */
+     padding: 0.5rem;
+     border-radius: 5px;
+     border: 1px solid rgb(8, 4, 0);
+ }
+
+
+ section{
+
+    padding: 3rem 0 4rem 0;
+ }
+
+ h1{
+
+    font: size 3rem; 
+    font-weight: normal;
+ }
+ 
+
+ h1.title{
+     font-weight: bold;
+     text-align: center;
+     margin-bottom: 2rem ;
+ }
+
+ .gray{
+
+    background-color: rgba(255, 255, 255, 0.671);
+
+ }
+ .container{
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 1rem;
+    
+ }
+
+ .hero{
+     width: 60%;
+     margin: auto;
+
+ }
+ .intro p{
+
+    margin: 1rem 0;
+    font-size: 1.5rem ;
+    font-weight: 100;
+ }
+
+
+.button{
+    background-color: #3396f3;
+    color: white;
+    padding: 10px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 5px;
+    box-shadow: 0 5px 10px 0 rgba(0 ,0, 0, 0.2);
+}
+
+.primary {
+    background-color: #3396f3;
+    color: white;
+}
+.secondary{
+    background-color:#fff ;
+    color: black;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+
+    height: 80px;
+    width: 18%;
+
+    border-radius: 10px;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.cards{
+    
+    display: flex;
+    justify-content: space-between;
+    
+}
+.card.red{
+
+    background-color: red;
+    
+}
+.card.blue{
+ background-color: rgb(23, 124, 219);
+}
+
+.card.yellow{
+    background-color: rgba(170, 124, 25, 0.932);
+}
+
+.card.purple{
+    background-color: rgb(130, 41, 182);
+}
+
+.card.green{
+background-color: rgba(32, 158, 126, 0.856);
+}
+
+.members{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.member img{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+}
+
+
+
+ footer{
+
+    background-color: blue;
+    height: 8rem;
+ }
+
+ footer ul{
+     display: flex;
+     justify-content: space-evenly;
+     padding-top: 2rem;
+     list-style-type: none;
+     
+    
+ }
+
+ footer a {
+     color: white;
+     
+ }
+
+ footer p.copyrigth{
+     padding: 3rem 0;
+     color: #ffffff66;
+     text-align: center;
+
+
+ }
+
